@@ -1,0 +1,410 @@
+2023-10-26 19:26:28.493 +05:00 [INF] salom
+2023-10-26 19:26:28.510 +05:00 [FTL] Fatal
+2023-10-26 19:26:28.682 +05:00 [INF] Now listening on: https://localhost:7153
+2023-10-26 19:26:28.685 +05:00 [INF] Now listening on: http://localhost:5093
+2023-10-26 19:26:28.687 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-26 19:26:28.688 +05:00 [INF] Hosting environment: Development
+2023-10-26 19:26:28.689 +05:00 [INF] Content root path: C:\Users\user\Desktop\Clean Architecture\MiniLMS\MiniLMS
+2023-10-26 19:26:29.068 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-10-26 19:26:29.367 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 308.8949ms
+2023-10-26 19:26:29.387 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-10-26 19:26:29.388 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2023-10-26 19:26:29.399 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12353 application/javascript;+charset=utf-8 11.2413ms
+2023-10-26 19:26:29.411 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.9018ms
+2023-10-26 19:26:29.601 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-10-26 19:26:29.745 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 144.2492ms
+2023-10-26 19:35:42.220 +05:00 [INF] salom
+2023-10-26 19:35:42.238 +05:00 [FTL] Fatal
+2023-10-26 19:35:42.407 +05:00 [INF] Now listening on: https://localhost:7153
+2023-10-26 19:35:42.412 +05:00 [INF] Now listening on: http://localhost:5093
+2023-10-26 19:35:42.413 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-26 19:35:42.415 +05:00 [INF] Hosting environment: Development
+2023-10-26 19:35:42.416 +05:00 [INF] Content root path: C:\Users\user\Desktop\Clean Architecture\MiniLMS\MiniLMS
+2023-10-26 19:35:42.633 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-10-26 19:35:42.775 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 143.8742ms
+2023-10-26 19:35:42.799 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-10-26 19:35:42.807 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12353 application/javascript;+charset=utf-8 7.9491ms
+2023-10-26 19:35:42.819 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2023-10-26 19:35:42.832 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.6049ms
+2023-10-26 19:35:43.005 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-10-26 19:35:43.088 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 82.2398ms
+2023-10-26 21:56:39.320 +05:00 [INF] salom
+2023-10-26 21:56:39.340 +05:00 [FTL] Fatal
+2023-10-26 21:56:39.559 +05:00 [INF] Now listening on: https://localhost:7153
+2023-10-26 21:56:39.563 +05:00 [INF] Now listening on: http://localhost:5093
+2023-10-26 21:56:39.565 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-26 21:56:39.566 +05:00 [INF] Hosting environment: Development
+2023-10-26 21:56:39.567 +05:00 [INF] Content root path: C:\Users\user\Desktop\Clean Architecture\MiniLMS\MiniLMS
+2023-10-26 21:56:39.964 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-10-26 21:56:40.253 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 294.8694ms
+2023-10-26 21:56:40.267 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-10-26 21:56:40.276 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12353 application/javascript;+charset=utf-8 8.4603ms
+2023-10-26 21:56:40.293 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2023-10-26 21:56:40.311 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.4890ms
+2023-10-26 21:56:40.980 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-10-26 21:56:41.146 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.9791ms
+2023-10-26 21:58:21.745 +05:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7153/api/student/delete application/json 68
+2023-10-26 21:58:21.755 +05:00 [INF] Executing endpoint 'MiniLMS.API.Controllers.StudentController.Delete (MiniLMS.API)'
+2023-10-26 21:58:21.791 +05:00 [INF] Route matched with {action = "Delete", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Delete(Int32) on controller MiniLMS.API.Controllers.StudentController (MiniLMS.API).
+2023-10-26 21:58:23.175 +05:00 [INF] Executed DbCommand (15ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."BirthDate", s."FullName", s."Gender", s."Login", s."Major", s."Password", s."PhoneNumber"
+FROM "Students" AS s
+WHERE s."Id" = @__p_0
+LIMIT 1
+2023-10-26 21:58:23.201 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-10-26 21:58:23.213 +05:00 [INF] Executed action MiniLMS.API.Controllers.StudentController.Delete (MiniLMS.API) in 1410.4362ms
+2023-10-26 21:58:23.216 +05:00 [INF] Executed endpoint 'MiniLMS.API.Controllers.StudentController.Delete (MiniLMS.API)'
+2023-10-26 21:58:23.228 +05:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7153/api/student/delete application/json 68 - 200 - text/plain;+charset=utf-8 1482.6083ms
+2023-10-26 21:58:47.612 +05:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7153/api/student/delete?id=3 application/json 68
+2023-10-26 21:58:47.617 +05:00 [INF] Executing endpoint 'MiniLMS.API.Controllers.StudentController.Delete (MiniLMS.API)'
+2023-10-26 21:58:47.619 +05:00 [INF] Route matched with {action = "Delete", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Delete(Int32) on controller MiniLMS.API.Controllers.StudentController (MiniLMS.API).
+2023-10-26 21:58:47.693 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."BirthDate", s."FullName", s."Gender", s."Login", s."Major", s."Password", s."PhoneNumber"
+FROM "Students" AS s
+WHERE s."Id" = @__p_0
+LIMIT 1
+2023-10-26 21:58:47.873 +05:00 [INF] Executed DbCommand (24ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Students"
+WHERE "Id" = @p0;
+2023-10-26 21:58:47.889 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2023-10-26 21:58:47.896 +05:00 [INF] Executed action MiniLMS.API.Controllers.StudentController.Delete (MiniLMS.API) in 275.8201ms
+2023-10-26 21:58:47.899 +05:00 [INF] Executed endpoint 'MiniLMS.API.Controllers.StudentController.Delete (MiniLMS.API)'
+2023-10-26 21:58:47.902 +05:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7153/api/student/delete?id=3 application/json 68 - 200 - text/plain;+charset=utf-8 290.5455ms
+2023-11-09 21:46:24.061 +05:00 [INF] salom
+2023-11-09 21:46:24.106 +05:00 [FTL] Fatal
+2023-11-09 21:46:25.587 +05:00 [INF] Now listening on: https://localhost:7153
+2023-11-09 21:46:25.593 +05:00 [INF] Now listening on: http://localhost:5093
+2023-11-09 21:46:25.595 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-09 21:46:25.596 +05:00 [INF] Hosting environment: Development
+2023-11-09 21:46:25.599 +05:00 [INF] Content root path: C:\Users\user\Desktop\Clean Architecture\MiniLMS\MiniLMS
+2023-11-09 21:46:26.148 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger - -
+2023-11-09 21:46:26.239 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger - - - 301 0 - 92.7381ms
+2023-11-09 21:46:26.246 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-11-09 21:46:26.461 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - -
+2023-11-09 21:46:26.467 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 221.1192ms
+2023-11-09 21:46:26.483 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-11-09 21:46:26.483 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - -
+2023-11-09 21:46:26.483 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - -
+2023-11-09 21:46:26.487 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-11-09 21:46:26.489 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12353 application/javascript;+charset=utf-8 4.6820ms
+2023-11-09 21:46:26.492 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - - - 200 144929 text/css 31.0016ms
+2023-11-09 21:46:26.496 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2023-11-09 21:46:26.500 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-11-09 21:46:26.502 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 18.6376ms
+2023-11-09 21:46:26.520 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-11-09 21:46:26.525 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 41.9626ms
+2023-11-09 21:46:26.568 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 72.0181ms
+2023-11-09 21:46:26.955 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-11-09 21:46:26.988 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - -
+2023-11-09 21:46:26.990 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-09 21:46:26.992 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - - - 200 628 image/png 4.3079ms
+2023-11-09 21:46:27.678 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 723.2857ms
+2023-11-09 22:03:38.160 +05:00 [INF] salom
+2023-11-09 22:03:38.190 +05:00 [FTL] Fatal
+2023-11-09 22:03:39.120 +05:00 [INF] Now listening on: https://localhost:7153
+2023-11-09 22:03:39.124 +05:00 [INF] Now listening on: http://localhost:5093
+2023-11-09 22:03:39.127 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-09 22:03:39.128 +05:00 [INF] Hosting environment: Development
+2023-11-09 22:03:39.130 +05:00 [INF] Content root path: C:\Users\user\Desktop\Clean Architecture\MiniLMS\MiniLMS
+2023-11-09 22:03:39.455 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-11-09 22:03:39.599 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 145.6261ms
+2023-11-09 22:03:39.765 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-11-09 22:03:39.773 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12353 application/javascript;+charset=utf-8 7.2699ms
+2023-11-09 22:03:39.800 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2023-11-09 22:03:39.817 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.2087ms
+2023-11-09 22:03:40.556 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-11-09 22:03:40.648 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.4097ms
+2023-11-09 22:03:55.641 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Student/Create application/json 192
+2023-11-09 22:03:55.653 +05:00 [INF] Executing endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:03:55.703 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[MiniLMS.Domain.Models.ResponseModel`1[MiniLMS.Domain.Models.StudentDTO.StudentGetDTO]] Create(MiniLMS.Domain.Models.StudentDTO.StudentCreateDTO) on controller MiniLMS.API.Controllers.StudentController (MiniLMS.API).
+2023-11-09 22:03:56.377 +05:00 [INF] Executed action MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API) in 662.3106ms
+2023-11-09 22:03:56.381 +05:00 [INF] Executed endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:03:56.384 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'MediatR.IMediator' while attempting to activate 'MiniLMS.API.Controllers.StudentController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method13(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-09 22:03:56.526 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Student/Create application/json 192 - 500 - text/plain;+charset=utf-8 885.4844ms
+2023-11-09 22:04:03.875 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191
+2023-11-09 22:04:03.893 +05:00 [INF] Executing endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:04:03.898 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[MiniLMS.Domain.Models.ResponseModel`1[MiniLMS.Domain.Models.StudentDTO.StudentGetDTO]] Create(MiniLMS.Domain.Models.StudentDTO.StudentCreateDTO) on controller MiniLMS.API.Controllers.StudentController (MiniLMS.API).
+2023-11-09 22:04:03.919 +05:00 [INF] Executed action MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API) in 9.6186ms
+2023-11-09 22:04:03.926 +05:00 [INF] Executed endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:04:03.930 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'MediatR.IMediator' while attempting to activate 'MiniLMS.API.Controllers.StudentController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method13(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-09 22:04:03.934 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191 - 500 - text/plain;+charset=utf-8 59.1360ms
+2023-11-09 22:05:37.756 +05:00 [INF] salom
+2023-11-09 22:05:37.772 +05:00 [FTL] Fatal
+2023-11-09 22:05:37.967 +05:00 [INF] Now listening on: https://localhost:7153
+2023-11-09 22:05:37.971 +05:00 [INF] Now listening on: http://localhost:5093
+2023-11-09 22:05:37.972 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-09 22:05:37.973 +05:00 [INF] Hosting environment: Development
+2023-11-09 22:05:37.974 +05:00 [INF] Content root path: C:\Users\user\Desktop\Clean Architecture\MiniLMS\MiniLMS
+2023-11-09 22:05:38.210 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-11-09 22:05:38.334 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 124.9133ms
+2023-11-09 22:05:38.365 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-11-09 22:05:38.376 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12353 application/javascript;+charset=utf-8 10.5770ms
+2023-11-09 22:05:38.382 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2023-11-09 22:05:38.396 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.6809ms
+2023-11-09 22:05:38.827 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-11-09 22:05:38.915 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.3736ms
+2023-11-09 22:05:40.536 +05:00 [INF] salom
+2023-11-09 22:05:40.551 +05:00 [FTL] Fatal
+2023-11-09 22:05:40.720 +05:00 [INF] Now listening on: https://localhost:7153
+2023-11-09 22:05:40.724 +05:00 [INF] Now listening on: http://localhost:5093
+2023-11-09 22:05:40.726 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-09 22:05:40.728 +05:00 [INF] Hosting environment: Development
+2023-11-09 22:05:40.730 +05:00 [INF] Content root path: C:\Users\user\Desktop\Clean Architecture\MiniLMS\MiniLMS
+2023-11-09 22:05:41.061 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-11-09 22:05:41.207 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 146.9500ms
+2023-11-09 22:05:41.297 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-11-09 22:05:41.297 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2023-11-09 22:05:41.303 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12353 application/javascript;+charset=utf-8 4.8826ms
+2023-11-09 22:05:41.315 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.7248ms
+2023-11-09 22:05:41.398 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-11-09 22:05:41.502 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 103.7151ms
+2023-11-09 22:05:53.872 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191
+2023-11-09 22:05:53.891 +05:00 [INF] Executing endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:05:53.914 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[MiniLMS.Domain.Models.ResponseModel`1[MiniLMS.Domain.Models.StudentDTO.StudentGetDTO]] Create(MiniLMS.Domain.Models.StudentDTO.StudentCreateDTO) on controller MiniLMS.API.Controllers.StudentController (MiniLMS.API).
+2023-11-09 22:05:55.431 +05:00 [INF] Executed DbCommand (44ms) [Parameters=[@p0='?' (DbType = Date), @p1='?', @p2='?' (DbType = Int16), @p3='?', @p4='?', @p5='?', @p6='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Students" ("BirthDate", "FullName", "Gender", "Login", "Major", "Password", "PhoneNumber")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2023-11-09 22:05:55.505 +05:00 [INF] Executed action MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API) in 1584.7841ms
+2023-11-09 22:05:55.511 +05:00 [INF] Executed endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:05:55.513 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: notification does not implement $INotification
+   at MediatR.Mediator.Publish(Object notification, CancellationToken cancellationToken)
+   at MiniLMS.API.Controllers.StudentController.Create(StudentCreateDTO studentCreateDto) in C:\Users\user\Desktop\Clean Architecture\MiniLMS\MiniLMS\Controllers\StudentController.cs:line 71
+   at lambda_method9(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-09 22:05:55.554 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191 - 500 - text/plain;+charset=utf-8 1681.3996ms
+2023-11-09 22:07:40.211 +05:00 [INF] salom
+2023-11-09 22:07:40.227 +05:00 [FTL] Fatal
+2023-11-09 22:07:40.411 +05:00 [INF] Now listening on: https://localhost:7153
+2023-11-09 22:07:40.414 +05:00 [INF] Now listening on: http://localhost:5093
+2023-11-09 22:07:40.416 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-09 22:07:40.417 +05:00 [INF] Hosting environment: Development
+2023-11-09 22:07:40.418 +05:00 [INF] Content root path: C:\Users\user\Desktop\Clean Architecture\MiniLMS\MiniLMS
+2023-11-09 22:07:40.626 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-11-09 22:07:40.755 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 129.6693ms
+2023-11-09 22:07:40.770 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-11-09 22:07:40.777 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12353 application/javascript;+charset=utf-8 7.2826ms
+2023-11-09 22:07:40.786 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2023-11-09 22:07:40.799 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.9898ms
+2023-11-09 22:07:41.294 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-11-09 22:07:41.390 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 95.9428ms
+2023-11-09 22:07:52.265 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191
+2023-11-09 22:07:52.279 +05:00 [INF] Executing endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:07:52.302 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[MiniLMS.Domain.Models.ResponseModel`1[MiniLMS.Domain.Models.StudentDTO.StudentGetDTO]] Create(MiniLMS.Domain.Models.StudentDTO.StudentCreateDTO) on controller MiniLMS.API.Controllers.StudentController (MiniLMS.API).
+2023-11-09 22:07:53.056 +05:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (DbType = Date), @p1='?', @p2='?' (DbType = Int16), @p3='?', @p4='?', @p5='?', @p6='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Students" ("BirthDate", "FullName", "Gender", "Login", "Major", "Password", "PhoneNumber")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2023-11-09 22:07:53.094 +05:00 [INF] Executed action MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API) in 782.9049ms
+2023-11-09 22:07:53.098 +05:00 [INF] Executed endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:07:53.107 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: notification does not implement $INotification
+   at MediatR.Mediator.Publish(Object notification, CancellationToken cancellationToken)
+   at MiniLMS.API.Controllers.StudentController.Create(StudentCreateDTO studentCreateDto) in C:\Users\user\Desktop\Clean Architecture\MiniLMS\MiniLMS\Controllers\StudentController.cs:line 71
+   at lambda_method9(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-09 22:07:53.146 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191 - 500 - text/plain;+charset=utf-8 881.3796ms
+2023-11-09 22:09:36.283 +05:00 [INF] salom
+2023-11-09 22:09:36.302 +05:00 [FTL] Fatal
+2023-11-09 22:09:36.487 +05:00 [INF] Now listening on: https://localhost:7153
+2023-11-09 22:09:36.492 +05:00 [INF] Now listening on: http://localhost:5093
+2023-11-09 22:09:36.493 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-09 22:09:36.495 +05:00 [INF] Hosting environment: Development
+2023-11-09 22:09:36.497 +05:00 [INF] Content root path: C:\Users\user\Desktop\Clean Architecture\MiniLMS\MiniLMS
+2023-11-09 22:09:36.969 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-11-09 22:09:37.082 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 113.2695ms
+2023-11-09 22:09:37.102 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-11-09 22:09:37.112 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2023-11-09 22:09:37.112 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12353 application/javascript;+charset=utf-8 9.8778ms
+2023-11-09 22:09:37.125 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.5684ms
+2023-11-09 22:09:37.604 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-11-09 22:09:37.685 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.0149ms
+2023-11-09 22:09:50.003 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191
+2023-11-09 22:09:50.013 +05:00 [INF] Executing endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:09:50.040 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[MiniLMS.Domain.Models.ResponseModel`1[MiniLMS.Domain.Models.StudentDTO.StudentGetDTO]] Create(MiniLMS.Domain.Models.StudentDTO.StudentCreateDTO) on controller MiniLMS.API.Controllers.StudentController (MiniLMS.API).
+2023-11-09 22:09:51.165 +05:00 [INF] Executed DbCommand (16ms) [Parameters=[@p0='?' (DbType = Date), @p1='?', @p2='?' (DbType = Int16), @p3='?', @p4='?', @p5='?', @p6='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Students" ("BirthDate", "FullName", "Gender", "Login", "Major", "Password", "PhoneNumber")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2023-11-09 22:09:51.245 +05:00 [INF] Executing ObjectResult, writing value of type 'MiniLMS.Domain.Models.ResponseModel`1[[MiniLMS.Domain.Models.StudentDTO.StudentGetDTO, MiniLMS.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-09 22:09:51.273 +05:00 [INF] Executed action MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API) in 1217.8691ms
+2023-11-09 22:09:51.276 +05:00 [INF] Executed endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:09:51.291 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191 - 200 - application/json;+charset=utf-8 1288.0354ms
+2023-11-09 22:11:02.676 +05:00 [INF] salom
+2023-11-09 22:11:02.691 +05:00 [FTL] Fatal
+2023-11-09 22:11:02.858 +05:00 [INF] Now listening on: https://localhost:7153
+2023-11-09 22:11:02.861 +05:00 [INF] Now listening on: http://localhost:5093
+2023-11-09 22:11:02.863 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-09 22:11:02.864 +05:00 [INF] Hosting environment: Development
+2023-11-09 22:11:02.865 +05:00 [INF] Content root path: C:\Users\user\Desktop\Clean Architecture\MiniLMS\MiniLMS
+2023-11-09 22:11:03.093 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-11-09 22:11:03.256 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 164.3485ms
+2023-11-09 22:11:03.269 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-11-09 22:11:03.275 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12353 application/javascript;+charset=utf-8 5.5363ms
+2023-11-09 22:11:03.279 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2023-11-09 22:11:03.292 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.0187ms
+2023-11-09 22:11:03.820 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-11-09 22:11:03.911 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.2112ms
+2023-11-09 22:11:23.744 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191
+2023-11-09 22:11:23.761 +05:00 [INF] Executing endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:11:23.788 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[MiniLMS.Domain.Models.ResponseModel`1[MiniLMS.Domain.Models.StudentDTO.StudentGetDTO]] Create(MiniLMS.Domain.Models.StudentDTO.StudentCreateDTO) on controller MiniLMS.API.Controllers.StudentController (MiniLMS.API).
+2023-11-09 22:11:24.745 +05:00 [INF] Executed DbCommand (15ms) [Parameters=[@p0='?' (DbType = Date), @p1='?', @p2='?' (DbType = Int16), @p3='?', @p4='?', @p5='?', @p6='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Students" ("BirthDate", "FullName", "Gender", "Login", "Major", "Password", "PhoneNumber")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2023-11-09 22:11:24.807 +05:00 [INF] Executing ObjectResult, writing value of type 'MiniLMS.Domain.Models.ResponseModel`1[[MiniLMS.Domain.Models.StudentDTO.StudentGetDTO, MiniLMS.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-09 22:11:24.833 +05:00 [INF] Executed action MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API) in 1033.859ms
+2023-11-09 22:11:24.838 +05:00 [INF] Executed endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:11:24.850 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191 - 200 - application/json;+charset=utf-8 1105.7138ms
+2023-11-09 22:12:14.949 +05:00 [INF] salom
+2023-11-09 22:12:14.964 +05:00 [FTL] Fatal
+2023-11-09 22:12:15.134 +05:00 [INF] Now listening on: https://localhost:7153
+2023-11-09 22:12:15.138 +05:00 [INF] Now listening on: http://localhost:5093
+2023-11-09 22:12:15.140 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-09 22:12:15.141 +05:00 [INF] Hosting environment: Development
+2023-11-09 22:12:15.142 +05:00 [INF] Content root path: C:\Users\user\Desktop\Clean Architecture\MiniLMS\MiniLMS
+2023-11-09 22:12:15.426 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-11-09 22:12:15.548 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 121.5534ms
+2023-11-09 22:12:15.564 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-11-09 22:12:15.576 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12353 application/javascript;+charset=utf-8 11.4459ms
+2023-11-09 22:12:15.579 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2023-11-09 22:12:15.593 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.6097ms
+2023-11-09 22:12:16.000 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-11-09 22:12:16.104 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 103.6349ms
+2023-11-09 22:12:37.535 +05:00 [INF] salom
+2023-11-09 22:12:37.557 +05:00 [FTL] Fatal
+2023-11-09 22:12:38.168 +05:00 [INF] Now listening on: https://localhost:7153
+2023-11-09 22:12:38.173 +05:00 [INF] Now listening on: http://localhost:5093
+2023-11-09 22:12:38.175 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-09 22:12:38.176 +05:00 [INF] Hosting environment: Development
+2023-11-09 22:12:38.177 +05:00 [INF] Content root path: C:\Users\user\Desktop\Clean Architecture\MiniLMS\MiniLMS
+2023-11-09 22:12:39.709 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-11-09 22:12:40.230 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 512.6672ms
+2023-11-09 22:12:40.768 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2023-11-09 22:12:40.768 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-11-09 22:12:40.959 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12353 application/javascript;+charset=utf-8 191.4774ms
+2023-11-09 22:12:40.980 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 214.2157ms
+2023-11-09 22:12:41.244 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-11-09 22:12:41.487 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 241.8250ms
+2023-11-09 22:12:49.544 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191
+2023-11-09 22:12:49.567 +05:00 [INF] Executing endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:12:49.604 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[MiniLMS.Domain.Models.ResponseModel`1[MiniLMS.Domain.Models.StudentDTO.StudentGetDTO]] Create(MiniLMS.Domain.Models.StudentDTO.StudentCreateDTO) on controller MiniLMS.API.Controllers.StudentController (MiniLMS.API).
+2023-11-09 22:12:51.242 +05:00 [INF] Executed DbCommand (25ms) [Parameters=[@p0='?' (DbType = Date), @p1='?', @p2='?' (DbType = Int16), @p3='?', @p4='?', @p5='?', @p6='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Students" ("BirthDate", "FullName", "Gender", "Login", "Major", "Password", "PhoneNumber")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2023-11-09 22:12:51.337 +05:00 [INF] Executing ObjectResult, writing value of type 'MiniLMS.Domain.Models.ResponseModel`1[[MiniLMS.Domain.Models.StudentDTO.StudentGetDTO, MiniLMS.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-09 22:12:51.358 +05:00 [INF] Executed action MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API) in 1744.1183ms
+2023-11-09 22:12:51.364 +05:00 [INF] Executed endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:12:51.375 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191 - 200 - application/json;+charset=utf-8 1832.9147ms
+2023-11-09 22:13:55.551 +05:00 [INF] salom
+2023-11-09 22:13:55.598 +05:00 [FTL] Fatal
+2023-11-09 22:13:56.340 +05:00 [INF] Now listening on: https://localhost:7153
+2023-11-09 22:13:56.346 +05:00 [INF] Now listening on: http://localhost:5093
+2023-11-09 22:13:56.348 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-09 22:13:56.350 +05:00 [INF] Hosting environment: Development
+2023-11-09 22:13:56.351 +05:00 [INF] Content root path: C:\Users\user\Desktop\Clean Architecture\MiniLMS\MiniLMS
+2023-11-09 22:13:56.955 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-11-09 22:13:57.188 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-11-09 22:13:57.189 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 234.3118ms
+2023-11-09 22:13:57.199 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12353 application/javascript;+charset=utf-8 10.9608ms
+2023-11-09 22:13:57.203 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2023-11-09 22:13:57.233 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.4642ms
+2023-11-09 22:13:57.530 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-11-09 22:13:57.716 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 186.1126ms
+2023-11-09 22:14:07.473 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191
+2023-11-09 22:14:07.491 +05:00 [INF] Executing endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:14:07.519 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[MiniLMS.Domain.Models.ResponseModel`1[MiniLMS.Domain.Models.StudentDTO.StudentGetDTO]] Create(MiniLMS.Domain.Models.StudentDTO.StudentCreateDTO) on controller MiniLMS.API.Controllers.StudentController (MiniLMS.API).
+2023-11-09 22:14:25.588 +05:00 [INF] Executed DbCommand (50ms) [Parameters=[@p0='?' (DbType = Date), @p1='?', @p2='?' (DbType = Int16), @p3='?', @p4='?', @p5='?', @p6='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Students" ("BirthDate", "FullName", "Gender", "Login", "Major", "Password", "PhoneNumber")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2023-11-09 22:14:36.996 +05:00 [INF] Executing ObjectResult, writing value of type 'MiniLMS.Domain.Models.ResponseModel`1[[MiniLMS.Domain.Models.StudentDTO.StudentGetDTO, MiniLMS.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-09 22:14:37.020 +05:00 [INF] Executed action MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API) in 29492.4614ms
+2023-11-09 22:14:37.029 +05:00 [INF] Executed endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:14:37.038 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191 - 200 - application/json;+charset=utf-8 29565.2216ms
+2023-11-09 22:14:50.729 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191
+2023-11-09 22:14:50.738 +05:00 [INF] Executing endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:14:50.743 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[MiniLMS.Domain.Models.ResponseModel`1[MiniLMS.Domain.Models.StudentDTO.StudentGetDTO]] Create(MiniLMS.Domain.Models.StudentDTO.StudentCreateDTO) on controller MiniLMS.API.Controllers.StudentController (MiniLMS.API).
+2023-11-09 22:15:01.204 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Date), @p1='?', @p2='?' (DbType = Int16), @p3='?', @p4='?', @p5='?', @p6='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Students" ("BirthDate", "FullName", "Gender", "Login", "Major", "Password", "PhoneNumber")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2023-11-09 22:15:23.723 +05:00 [INF] Executing ObjectResult, writing value of type 'MiniLMS.Domain.Models.ResponseModel`1[[MiniLMS.Domain.Models.StudentDTO.StudentGetDTO, MiniLMS.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-09 22:15:23.758 +05:00 [INF] Executed action MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API) in 33006.2543ms
+2023-11-09 22:15:23.761 +05:00 [INF] Executed endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:15:23.762 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191 - 200 - application/json;+charset=utf-8 33034.0109ms
+2023-11-09 22:15:27.602 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191
+2023-11-09 22:15:27.606 +05:00 [INF] Executing endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:15:27.608 +05:00 [INF] Route matched with {action = "Create", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[MiniLMS.Domain.Models.ResponseModel`1[MiniLMS.Domain.Models.StudentDTO.StudentGetDTO]] Create(MiniLMS.Domain.Models.StudentDTO.StudentCreateDTO) on controller MiniLMS.API.Controllers.StudentController (MiniLMS.API).
+2023-11-09 22:15:30.933 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Date), @p1='?', @p2='?' (DbType = Int16), @p3='?', @p4='?', @p5='?', @p6='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Students" ("BirthDate", "FullName", "Gender", "Login", "Major", "Password", "PhoneNumber")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2023-11-09 22:15:34.826 +05:00 [INF] Executing ObjectResult, writing value of type 'MiniLMS.Domain.Models.ResponseModel`1[[MiniLMS.Domain.Models.StudentDTO.StudentGetDTO, MiniLMS.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-09 22:15:39.153 +05:00 [INF] Executed action MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API) in 11536.3989ms
+2023-11-09 22:15:39.158 +05:00 [INF] Executed endpoint 'MiniLMS.API.Controllers.StudentController.Create (MiniLMS.API)'
+2023-11-09 22:15:39.161 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Student/Create application/json 191 - 200 - application/json;+charset=utf-8 11560.1224ms
+2023-11-14 14:57:46.227 +05:00 [INF] salom
+2023-11-14 14:57:46.306 +05:00 [FTL] Fatal
