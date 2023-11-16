@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Caching.Distributed;
+using Microsoft.AspNetCore.RateLimiting;
 using MiniLMS.Application.Services;
 using MiniLMS.Domain.Entities;
 using MiniLMS.Domain.Models;
@@ -15,42 +15,36 @@ public class StudentController : ControllerBase
 {
     private readonly IStudentService _studentService;
     private readonly IMapper _mapper;
-    private readonly IDistributedCache _cache;
-    private string key = "Mykey1";
-    private Serilog.ILogger _logger;
     private readonly IMediator _mediator;
-    public StudentController(IStudentService studentService, IMapper mapper, IDistributedCache cache, Serilog.ILogger logger, IMediator mediator)
+    private readonly ILogger<StudentController> _logger;
+    private Guid guid = Guid.NewGuid();
+    public StudentController(IStudentService studentService, IMapper mapper, IMediator mediator, ILogger<StudentController> logger)
     {
         _studentService = studentService;
         _mapper = mapper;
-        _cache = cache;
-        _logger = logger;
         _mediator = mediator;
+        _logger = logger;
     }
 
+
     [HttpGet]
-    public void WriteDatabase()
+    [EnableRateLimiting("token")]
+    public async void Rate_limiter()
     {
-        _logger.Information("Bu log");
+        await Console.Out.WriteLineAsync("Request:"+guid);
+        // Thread.Sleep(5000);
+        await Console.Out.WriteLineAsync("Response :  "+guid);
+         
     }
 
     [HttpGet]
-
+    [EnableRateLimiting("token")]
     public async Task<ResponseModel<IEnumerable<StudentGetDTO>>> GetAll()
     {
-        string? cachevalue = _cache.GetString(key);
+        IEnumerable<Student> student = await _studentService.GetAllAsync();
+        IEnumerable<StudentGetDTO> students = _mapper.Map<IEnumerable<StudentGetDTO>>(student);
 
-
-        if (cachevalue == null)
-        {
-            IEnumerable<Student> student = await _studentService.GetAllAsync();
-            IEnumerable<StudentGetDTO> students = _mapper.Map<IEnumerable<StudentGetDTO>>(student);
-            cachevalue = JsonConvert.SerializeObject(students);
-            _cache.SetString(key, cachevalue);
-        }
-
-        IEnumerable<StudentGetDTO>? st = JsonConvert.DeserializeObject<IEnumerable<StudentGetDTO>>(cachevalue);
-        return new(st);
+        return new(students);
     }
 
     [HttpGet]

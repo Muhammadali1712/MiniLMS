@@ -1,8 +1,8 @@
+using Microsoft.AspNetCore.RateLimiting;
 using MiniLMS.Application;
+using MiniLMS.Domain.Models;
 using MiniLMS.Infrastructure;
-using Serilog;
-using Serilog.Core;
-using Serilog.Formatting.Display;
+using System.Threading.RateLimiting;
 
 namespace MiniLMS;
 public class Program
@@ -14,20 +14,8 @@ public class Program
 
         var botToken = "1014298353:AAHwmo0n1pnK7zk-zf2bomdiqTZnAEee4Gk";
 
-        Logger log = new LoggerConfiguration()
-           .Enrich.WithEnvironmentUserName()
-           .Enrich.WithThreadId()
-           .Enrich.WithEnvironmentName()
-           .Enrich.WithThreadName()
-           .Enrich.WithMachineName()
-           .WriteTo.Console(outputTemplate: "[ ThreadId: {ThreadId} {ThreadName} {MachineName} {EnvironmentUserName} {Level:u3}] {Message:1j}{NewLine}{Exception}")
-                   .WriteTo.File("my_log.txt")
-                   .WriteTo.File("My_json_log.json")
-                   .WriteTo.Telegram(botToken: botToken, chatId: "971153825")
-                   .WriteTo.PostgreSQL("Host=::1; Database=serilog;User Id=postgres; password=2004-12-17;", "serilog1",needAutoCreateTable : true)
-                   .CreateLogger();
-        log.Information("salom");
-        log.Fatal("Fatal");
+        var myOptions = new MyRateLimitOptions();
+        builder.Configuration.GetSection(MyRateLimitOptions.MyRateLimit).Bind(myOptions);
 
 
 
@@ -39,17 +27,47 @@ public class Program
         builder.Services.AddSwaggerGen();
         builder.Services.AddApplicationServise();
         builder.Services.AddInfrastructureServices(builder.Configuration);
-        //builder.Services.AddLogging();
-        builder.Services.AddSerilog(log);
-
-        builder.Services.AddStackExchangeRedisCache(setupAction =>
+        builder.Services.AddLogging();
+        builder.Services.AddRateLimiter(_ => _.AddFixedWindowLimiter("fixed", options =>
         {
-            setupAction.Configuration = "127.0.0.1:6379";
-        });
+            options.PermitLimit = 3;
+            options.Window = TimeSpan.FromSeconds(20);
+            //options.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+            //options.QueueLimit = 2;
+        }));
 
-        builder.Services.AddLazyCache();
+        builder.Services.AddRateLimiter(_ => _
+    .AddTokenBucketLimiter(policyName: "token", options =>
+    {
+        options.TokenLimit = 4;
+       // options.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+       // options.QueueLimit = 2;
+        options.ReplenishmentPeriod = TimeSpan.FromSeconds(10);
+        options.TokensPerPeriod = 3;
+    }));
 
-       builder.Services.AddMediatR(mdr=>mdr.RegisterServicesFromAssemblies(typeof(Program).Assembly));
+
+        builder.Services.AddRateLimiter(_ => _
+    .AddSlidingWindowLimiter(policyName: "sliding", options =>
+    {
+        options.PermitLimit = myOptions.PermitLimit;
+        options.Window = TimeSpan.FromSeconds(myOptions.Window);
+        options.SegmentsPerWindow = myOptions.SegmentsPerWindow;
+        options.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+        options.QueueLimit = myOptions.QueueLimit;
+    }));
+
+
+        builder.Services.AddRateLimiter(_ => _
+    .AddConcurrencyLimiter(policyName: "concurrency", options =>
+    {
+        options.PermitLimit = myOptions.PermitLimit;
+        
+        options.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+        options.QueueLimit = myOptions.QueueLimit;
+    }));
+
+        builder.Services.AddMediatR(mdr => mdr.RegisterServicesFromAssemblies(typeof(Program).Assembly));
 
         var app = builder.Build();
 
@@ -57,8 +75,10 @@ public class Program
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
-            app.UseSwaggerUI(c=>c.DisplayRequestDuration());
+            app.UseSwaggerUI(c => c.DisplayRequestDuration());
         }
+
+        app.UseRateLimiter();
 
         app.UseHttpsRedirection();
 
