@@ -28,13 +28,9 @@ public class StudentController : ControllerBase
 
 
     [HttpGet]
-    [EnableRateLimiting("token")]
-    public async void Rate_limiter()
+    public async Task<string> Rate_limiter()
     {
-        await Console.Out.WriteLineAsync("Request:"+guid);
-        // Thread.Sleep(5000);
-        await Console.Out.WriteLineAsync("Response :  "+guid);
-         
+        return await _studentService.GetRequestAsync();    
     }
 
     [HttpGet]
@@ -87,3 +83,4 @@ public class StudentController : ControllerBase
 
     }
 }
+

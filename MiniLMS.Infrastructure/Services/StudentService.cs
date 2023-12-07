@@ -56,4 +56,31 @@ public class StudentService : IStudentService
 
         return executedRows > 0;
     }
+
+    public async Task<string> GetRequestAsync()
+    {
+        string apiUrl = "http://10.10.2.77/api/Role/GetAll";
+
+        using (HttpClient httpClient = new HttpClient())
+        {
+            try
+            {
+                HttpResponseMessage response = await httpClient.GetAsync(apiUrl);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string responseData = await response.Content.ReadAsStringAsync();
+                    return responseData;
+                }
+                else
+                {
+                    return$"Error: {response.StatusCode} - {response.ReasonPhrase}";
+                }
+            }
+            catch (Exception ex)
+            {
+                return($"Exception: {ex.Message}");
+            }
+        }
+    }
 }

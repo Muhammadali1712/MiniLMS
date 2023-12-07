@@ -12,7 +12,6 @@ public class Program
 
         var builder = WebApplication.CreateBuilder(args);
 
-        var botToken = "1014298353:AAHwmo0n1pnK7zk-zf2bomdiqTZnAEee4Gk";
 
         var myOptions = new MyRateLimitOptions();
         builder.Configuration.GetSection(MyRateLimitOptions.MyRateLimit).Bind(myOptions);
@@ -28,6 +27,8 @@ public class Program
         builder.Services.AddApplicationServise();
         builder.Services.AddInfrastructureServices(builder.Configuration);
         builder.Services.AddLogging();
+
+
         builder.Services.AddRateLimiter(_ => _.AddFixedWindowLimiter("fixed", options =>
         {
             options.PermitLimit = 3;
